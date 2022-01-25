@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado-pagina {
+  background: linear-gradient(rgba(48, 113, 252, 0.9), rgba(48, 113, 252, 0.6)),
+    url("https://www.topdoctors.mx/files/Image/large/62f92b37fe89104334eaa045606dc271.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
+
+.M-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.izquierda {
+  padding-right: 50px;
+}
+
+.texto-logo {
+  justify-content: flex-start;
+  padding-right: 100px;
+}
+
+.lista-menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+
+li {
+  color: #ffffff;
+  list-style: none;
+  padding: 15px 5px;
+}
